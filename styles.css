@@ -3,12 +3,13 @@ body {
 }
 /* Style the header */
 .header {
-  background-image: url('golf2.2.jpg');
+  background-image: url('R.jpeg');
   padding: 20px;
   text-align: center;
     background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
+  background-size: 100% 100%;
 }
   /* Style the top navigation bar */
 .topnav {
@@ -27,16 +28,45 @@ body {
 }
 
   .test {
+    float: left;
   background-color: whitesmoke;
-  width: 300px;
+  width: 760px;
   border: 20px; 
   padding: 50px;
   margin: 20px;
   }
+
   h1 {
     text-align: center;
   }
+  .test {
+  background-color: whitesmoke;
+  width: 760px;
+  border: 20px; 
+  padding: 50px;
+  margin: 20px;
+  }
+.test {
+  background-color: whitesmoke;
+  width: 760px;
+  border: 20px; 
+  padding: 50px;
+  margin: 20px;
+  }
+.test {
+  background-color: whitesmoke;
+  width: 760px;
+  border: 20px; 
+  padding: 50px;
+  margin: 20px;
+  }
 
 #header2 {
-  background-image: url('golf2.2.jpg');
+  background-image: url('R.jpeg');
+}
+
+.square {
+  float: left;
+  max-width: 70%;
+  margin: 10px;
 }
