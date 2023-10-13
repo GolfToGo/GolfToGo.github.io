@@ -1,65 +1,48 @@
 body {
   margin: 0%;
 }
+
 /* Style the header */
 .header {
   background-image: url('R.jpeg');
   padding: 20px;
   text-align: center;
-    background-repeat: no-repeat;
-  background-attachment: fixed;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-size: 100% 100%;
 }
-  /* Style the top navigation bar */
+
+/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #077427;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-  .test {
-    float: left;
+.test {
+  float: left;
   background-color: whitesmoke;
   width: 760px;
-  border: 20px; 
+  border: 20px;
   padding: 50px;
   margin: 20px;
-  }
+}
 
-  h1 {
-    text-align: center;
-  }
-  .test {
-  background-color: whitesmoke;
-  width: 760px;
-  border: 20px; 
-  padding: 50px;
-  margin: 20px;
-  }
-.test {
-  background-color: whitesmoke;
-  width: 760px;
-  border: 20px; 
-  padding: 50px;
-  margin: 20px;
-  }
-.test {
-  background-color: whitesmoke;
-  width: 760px;
-  border: 20px; 
-  padding: 50px;
-  margin: 20px;
-  }
+.test::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 #header2 {
   background-image: url('R.jpeg');
@@ -69,4 +52,25 @@ body {
   float: left;
   max-width: 70%;
   margin: 10px;
+  color: black;
+}
+
+
+.content {
+  background-color: #239043;
+  overflow: hidden;
+}
+
+.forms {
+  margin-left: 775px;
+  font-size: 20px ;
+}
+
+.forms input {
+  font-size: 15px; 
+  width: 300px;
+}
+
+h1 {
+  font-size: 500%;
 }
