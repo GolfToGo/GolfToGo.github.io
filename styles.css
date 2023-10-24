@@ -76,7 +76,7 @@ h1 {
 .boeken {
 text-align: center;
 }
-.square p {
+.square a {
   color: black ;
   text-decoration: none;
 }
